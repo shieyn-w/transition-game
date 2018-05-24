@@ -7,13 +7,57 @@ var fieldResetted = false;
 
 //questions
 var questionID;
-var question = ["yes", "nan"];
+var question = ["How many year 10s are stressed about college", "What causes stress about college for year 10s", "what is stress", "is stress always a bad thing", "is anxiety different to stress", "what is a major cause of anxiety", "when people transition to college it is a good idea to...","Jess P Shatkin states that:", "How many people are stressed in high school", "How many people are stressed in college"];
 
-var answer_1 = ["yes", "yr"];			//1
-var answer_2 = ["no", "nan"];			//2
-var answer_3 = ["maybe", "dddd"];		//3
+var answer_1 = [
+"all",
+"How to make friends",
+"The constraint or pressure to do something",
+"yes",
+"no",
+"loneliness",
+"Do nothing and panic",
+"Moving to college is more than just moving to another school",
+"25%",
+"25%",
+];			//1
+var answer_2 = [
+"half",
+"other",
+"A feeling of sadness and despair",
+"no",
+"yes",
+"Knowing what to do for work",
+"Let your parents do everything for you",
+"Moving to college is nothing more than just moving to another school",
+"50%",
+"50%",
+];			//2
+var answer_3 = [
+"none",
+"What subjects to choose",
+"Constant mindfulness",
+"-",
+"-",
+"unknown",
+"Get plans and put useful information into your calendar",
+"Moving to college doesn’t exist",
+"80%",
+"80%",
+];		//3
 
-var questionAnswer = [1, 2]; 	//first selection is counted as 1. 
+var questionAnswer = [
+2,
+3,
+2,
+1,
+2,
+2,
+3,
+1,
+2,
+3,
+]; 	//first selection is counted as 1. 
 
 var name;
 
