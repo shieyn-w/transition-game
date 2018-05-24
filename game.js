@@ -148,7 +148,7 @@ function game_Draw (ctx)
 				break;
 		}
 		
-		shDrawText (ctx, "20px Arial", questionStr, 210 + 1280 / 3 * i, 30, "#000000");
+		shDrawText (ctx, "20px Arial", questionStr, 1280 / 3 * i - 100, 150 + 20 * i, "#000000");
 	}
 	
 	//enemies 
