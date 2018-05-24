@@ -12,24 +12,24 @@ var question = ["How many year 10s are stressed about college", "What causes str
 var answer_1 = [
 "all",
 "How to make friends",
-"The constraint or pressure to do something",
+"constraint or pressure to do something",
 "yes",
 "no",
 "loneliness",
 "Do nothing and panic",
-"Moving to college is more than just moving to another school",
+"Moving to college is more than moving to another school",
 "25%",
 "25%",
 ];			//1
 var answer_2 = [
 "half",
 "other",
-"A feeling of sadness and despair",
+"A feeling of sadness",
 "no",
 "yes",
 "Knowing what to do for work",
 "Let your parents do everything for you",
-"Moving to college is nothing more than just moving to another school",
+"Moving to college is nothing more than just another school",
 "50%",
 "50%",
 ];			//2
