@@ -42,7 +42,7 @@ function home_Draw (ctx)
 	shDrawText (ctx, "30px Arial", "Transition Game", 50, 60, "#000000");
 	shDrawText (ctx, "20px Arial", "Written by Justin Tieu for Year 10 health expo", 50, 80, "#000000");
     
-    shDrawRect (ctx, 0, 100, 1280, 700, "#5d5f60");
+    shDrawRect (ctx, 0, 100, 1280, 700, "#2a8259");
     shDrawText (ctx, "30px Arial", "Player name: " + name, 600, 60, "#000000");
     shDrawText (ctx, "30px Arial", "Fill in your name using the textbox on the right. Use the button on the right to start the game.", 0, 700, "#000000");
     
