@@ -158,7 +158,7 @@ function game_Draw (ctx)
 	//enemies 
 	for (i = 0; i < Enemies.length; i++)
 	{
-		shDrawRect (ctx, Enemies[i].x, Enemies[i].y, 30, 30, "#4286f4");
+		shDrawRect (ctx, Enemies[i].x, Enemies[i].y, 30, 30, "#ff0000");
 	}
 
 	//Question
