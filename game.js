@@ -205,7 +205,7 @@ function HandlePlayerCollisions()
 		for (a = 0; a < 3; a++)
 		{
 			doorPos = 100 + 1280 / 3 * a;
-            //if (pX > doorPos && pX + 80 < doorPos + 100)
+            if (pX > doorPos && pX + 80 < doorPos + 100)
             {
 				if (questionAnswer[questionID] == a + 1)
 				{
