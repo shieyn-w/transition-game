@@ -7,7 +7,15 @@ var fieldResetted = false;
 
 //questions
 var questionID;
-var question = ["How many year 10s are stressed about college", "What causes stress about college for year 10s", "what is stress", "is stress always a bad thing", "is anxiety different to stress", "what is a major cause of anxiety", "when people transition to college it is a good idea to...","Jess P Shatkin states that:", "How many people are stressed in high school", "How many people are stressed in college"];
+var question = ["How many year 10s are stressed about college", 
+		"What causes stress about college for year 10s", 
+		"what is stress", "is stress always a bad thing", 
+		"is anxiety different to stress", 
+		"what is a major cause of anxiety", 
+		"when people transition to college it is a good idea to...",
+		"Jess P Shatkin states that:", 
+		"How many people are stressed in high school", 
+		"How many people are stressed in college"];
 
 var answer_1 = [
 "all",
@@ -47,16 +55,18 @@ var answer_3 = [
 ];		//3
 
 var questionAnswer = [
-2,
-3,
-2,
-1,
-2,
+
 2,
 3,
 1,
 2,
+2,
+2,
 3,
+1,
+2,
+3,
+
 ]; 	//first selection is counted as 1. 
 
 var name;
