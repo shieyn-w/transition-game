@@ -134,7 +134,11 @@ function game_Draw (ctx)
 	{
 		var questionStr;
 		
-		shDrawRect (ctx, 100 + 1280 / 3 * i, 0, 100, 130, "#000000");
+		shDrawRect (ctx, 100 + 1280 / 3 * i, 0, 100, 130, "#a39068");
+        ctx.strokeRect(100 + 1280 / 3 * i, 0, 100, 130);
+        ctx.beginPath();
+        ctx.arc(100 + 1280 / 3 * i + 15, 60,10,0,2*Math.PI);
+        ctx.stroke();
 		switch (i)
 		{
 			case 0: 
@@ -154,7 +158,7 @@ function game_Draw (ctx)
 	//enemies 
 	for (i = 0; i < Enemies.length; i++)
 	{
-		shDrawRect (ctx, Enemies[i].x, Enemies[i].y, 30, 30, "#ff0000");
+		shDrawRect (ctx, Enemies[i].x, Enemies[i].y, 30, 30, "#4286f4");
 	}
 
 	//Question
@@ -201,7 +205,7 @@ function HandlePlayerCollisions()
 		for (a = 0; a < 3; a++)
 		{
 			doorPos = 100 + 1280 / 3 * a;
-            if (pX > doorPos && pX + 80 < doorPos + 100)
+            //if (pX > doorPos && pX + 80 < doorPos + 100)
             {
 				if (questionAnswer[questionID] == a + 1)
 				{
