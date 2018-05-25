@@ -165,7 +165,7 @@ function game_Draw (ctx)
 	//player
 	shDrawRect (ctx, pX, pY, 80, 80, "#ffffff");
 	//Question
-    shDrawText (ctx, "30px Arial", question [questionID] + "?", 350, 400, "#f4e842");
+    shDrawText (ctx, "30px Arial", question [questionID] + "?", 350, 400, "#42f456");
     
 	//score
 	shDrawText (ctx, "30px Arial", "SCORE: " + score, 0, 670, "#000000");
